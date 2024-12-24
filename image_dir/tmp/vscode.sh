@@ -46,10 +46,20 @@ fi
 
 extensions=(
 	ms-python.python
+    ms-python.vscode-pylance
+    ms-python.debugpy
 	ms-toolsai.jupyter
+    ms-toolsai.vscode-jupyter-cell-tags
+    ms-toolsai.vscode-jupyter-slideshow
+    ms-toolsai.jupyter-keymap
+    ms-toolsai.jupyter-renderers
 	ms-vscode.cpptools-extension-pack
 	lfm.vscode-makefile-term
 	ms-vscode.makefile-tools
+    ms-vscode.cpptools
+    ms-vscode.cpptools-themes
+    ms-vscode.cmake-tools
+    twxs.cmake
 	redhat.java
 	ms-toolsai.datawrangler
 	jebbs.plantuml
