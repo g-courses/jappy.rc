@@ -63,7 +63,7 @@ extensions=(
     redhat.java
     ms-toolsai.datawrangler
     jebbs.plantuml
-    #bbenoist.Doxygen
+    bbenoist.Doxygen
     cschlosser.doxdocgen
     betwo.vscode-doxygen-runner
     hediet.vscode-drawio
