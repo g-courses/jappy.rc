@@ -62,11 +62,13 @@ extensions=(
     twxs.cmake
     redhat.java
     ms-toolsai.datawrangler
-    jebbs.plantuml
     bbenoist.Doxygen
     cschlosser.doxdocgen
     betwo.vscode-doxygen-runner
     hediet.vscode-drawio
+    bierner.markdown-mermaid
+    bpruitt-goddard.mermaid-markdown-syntax-highlighting
+    tomoyukim.vscode-mermaid-editor
 )
 	
 echo "* * *  Installing VS Code Server"
