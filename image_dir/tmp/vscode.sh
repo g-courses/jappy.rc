@@ -69,6 +69,7 @@ extensions=(
     bierner.markdown-mermaid
     bpruitt-goddard.mermaid-markdown-syntax-highlighting
     tomoyukim.vscode-mermaid-editor
+    jebbs.plantuml
 )
 	
 echo "* * *  Installing VS Code Server"
