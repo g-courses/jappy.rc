@@ -83,6 +83,7 @@
 	    <h2>Programación Avanzada</h1>
 	    <h3>Servidor Jupyter</h3>
         <form action="/hub/login" method="post">
+            <input type="hidden" name="_xsrf" value="{{ xsrf }}" />
             <input type="text" name="username" placeholder="Usuario" required>
             <input type="password" name="password" placeholder="Contraseña" required>
             <button type="submit">Entrar</button>
