@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column; /* Apila el banner y el contenedor verticalmente */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7f7f7;
+            margin: 0; /* Elimina el margen por defecto */
+        }
+        .banner {
+            background-color: #007bff; /* Color del banner */
+            color: white;
+            padding: 15px;
+            width: 100%; /* Ancho completo */
+            text-align: center; /* Centra el texto */
+            font-size: 1.5em; /* Tamaño del texto */
+            position: absolute; /* Permite que el banner se quede en la parte superior */
+            top: 0; /* Posiciona el banner en la parte superior */
+        }
+
+        .login-container {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Ajusta el ancho si es necesario */
+            margin-top: 80px; /* Espacio para el banner */
+            text-align: center; /* Centra el contenido */
+        }
+	.logo-top {
+            width: 100%; /* Ajusta el tamaño del logo superior */
+            margin-bottom: 20px; /* Espaciado inferior */
+	    position: absolute; /* Permite que el banner se quede en la parte superior */
+            top: 0; /* Posiciona el banner en la parte superior */
+
+        }
+
+        .logo {
+            width: 100%; /* Ajusta el tamaño del logo */
+            margin-bottom: 20px; /* Espaciado inferior */
+        }
+        h1,h2,h3 {
+            text-align: center;
+	    color: #153855;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column; /* Apila los elementos en columna */
+            align-items: center; /* Centra los elementos en el eje horizontal */
+        }
+        button {
+            width: 50%; /* Botón al 50% del ancho del contenedor */
+            padding: 10px;
+            background-color: #153855;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px; /* Espaciado superior para separar del input */
+        }
+    </style>
+</head>
+<body>
+    <!--	
+    <div class="banner">
+        Bienvenido a JupyterHub
+    </div>-->
+    <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/hub/logo-top-01.png" alt="" class="logo-top">
+    <div class="login-container">
+	    <h2>Programación Avanzada</h1>
+	    <h3>Servidor Jupyter</h3>
+        <form action="/hub/login" method="post">
+            <input type="text" name="username" placeholder="Usuario" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
+
