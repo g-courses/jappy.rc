@@ -1,0 +1,11 @@
+{
+    "availableProviders": {
+        "CompletionProvider:context": 500,
+        "CompletionProvider:kernel": 550,
+        "DebuggerCompletionProvider": 1000
+    },
+    "providerTimeout": 1000,
+    "showDocumentationPanel": false,
+    "autoCompletion": true,
+    "suppressIfInlineCompleterActive": false
+}
